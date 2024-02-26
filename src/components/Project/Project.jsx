@@ -36,7 +36,7 @@ Project.propTypes = {
   name: PropTypes.string,
   tags: PropTypes.array,
   image: PropTypes.string,
-  duration: PropTypes.number,
+  duration: PropTypes.string,
   aos: PropTypes.string,
 };
 export default Project;

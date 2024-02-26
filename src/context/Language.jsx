@@ -46,7 +46,7 @@ export function Text({ tid }) {
   return languageContext.dictionary[tid] || tid;
 }
 LanguageProvider.propTypes = {
-  children: PropTypes.element,
+  children: PropTypes.array,
 };
 Text.propTypes = {
   tid: PropTypes.string,

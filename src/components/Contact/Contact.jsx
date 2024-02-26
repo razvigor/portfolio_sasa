@@ -25,8 +25,8 @@ const Contact = () => {
   const [errMessage, setErrMessage] = useState('');
 
   return (
-    <sectioin id='contact' className='container mx-auto px-4 lg:px-0'>
-      <div className='w-full flex flex-col justify-center items-center py-24 '>
+    <div id='contact' className='container mx-auto'>
+      <div className='w-full flex flex-col justify-center items-center py-24 px-4 lg:px-0'>
         <h2 data-aos='fade-up-right' className={styles.sectionHeadText}>
           <Text tid='contact-title' />
         </h2>
@@ -62,7 +62,7 @@ const Contact = () => {
           }}
         >
           {({ values, errors, touched }) => (
-            <Form className='grid max-w-[1240px] w-full grid-cols-2 gap-x-4 gap-y-24 mt-24'>
+            <Form className='grid max-w-[1240px] w-full grid-cols-2 gap-x-4 gap-y-24 mt-24 px-2'>
               <div
                 className='col-span-2 lg:col-span-1'
                 data-aos='fade-up-right'
@@ -185,7 +185,7 @@ const Contact = () => {
           <p className='text-red-500 font-light text-sm'>{errMessage}</p>
         )}
       </div>
-    </sectioin>
+    </div>
   );
 };
 
