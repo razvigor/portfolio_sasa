@@ -68,13 +68,13 @@ const Navbar = () => {
   };
   return (
     <nav
-      className={`flex items-center w-full fixed top-0 left-0 z-20 ${
+      className={`flex items-center fixed top-0 left-0 z-20 right-0 ${
         scrolled ? 'bg-primary border-b border-slate-500' : 'bg-transparent'
       }`}
       data-aos='fade-down'
     >
       <div className='container mx-auto'>
-        <div className=' px-4 lg:px-0 flex justify-between items-center'>
+        <div className='px-4 lg:px-0 flex justify-between items-center'>
           <Link to='/' className='flex items-center gap-2' onClick={goTop}>
             <img src={logo} alt='logo' className='w-20 h-20 object-contain' />
             <p className='text-white text-[18px] font-bold cursor-pointer flex '>
