@@ -6,7 +6,6 @@ import logo from '../../assets/ST_Logo.svg';
 import { Text } from '../../context/Language';
 import close from '../../assets/close.svg';
 import menu from '../../assets/menu.svg';
-import { styles } from '../../styles.js';
 
 const SwitchButton = () => {
   const { userLanguage, userLanguageChange } = useContext(LanguageContext);
@@ -69,60 +68,60 @@ const Navbar = () => {
   };
   return (
     <nav
-      className={`${
-        styles.paddingX
-      } w-full flex items-center fixed top-0 z-20 ${
+      className={`flex items-center w-full fixed top-0 left-0 z-20 ${
         scrolled ? 'bg-primary border-b border-slate-500' : 'bg-transparent'
       }`}
       data-aos='fade-down'
     >
-      <div className='w-full flex justify-between items-center container mx-auto px-4 lg:px-0'>
-        <Link to='/' className='flex items-center gap-2' onClick={goTop}>
-          <img src={logo} alt='logo' className='w-20 h-20 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Saša &nbsp;
-            <span className='sm:block hidden'> | Frontend Developer</span>
-          </p>
-        </Link>
+      <div className='container mx-auto'>
+        <div className=' px-4 lg:px-0 flex justify-between items-center'>
+          <Link to='/' className='flex items-center gap-2' onClick={goTop}>
+            <img src={logo} alt='logo' className='w-20 h-20 object-contain' />
+            <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+              Saša &nbsp;
+              <span className='sm:block hidden'> | Frontend Developer</span>
+            </p>
+          </Link>
 
-        <ul className='list-none hidden lg:flex flex-row gap-10'>
-          {navLinks.map((nav) => (
-            <li
-              key={nav.id}
-              className={`text-secondary hover:text-white text-[18px] font-medium cursor-pointer`}
+          <ul className='list-none hidden lg:flex flex-row gap-10'>
+            {navLinks.map((nav) => (
+              <li
+                key={nav.id}
+                className={`text-secondary hover:text-white text-[18px] font-medium cursor-pointer`}
+              >
+                <Link to={`#${nav.id}`}>
+                  <Text tid={nav.id} />
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <SwitchButton state={language} setState={setLanguage} />
+          <div className='lg:hidden flex justify-end items-center'>
+            <img
+              src={toggle ? close : menu}
+              alt='menu'
+              className='w-[28px] h-[28px] object-contain'
+              onClick={() => setToggle(!toggle)}
+            />
+
+            <div
+              className={`${
+                !toggle ? 'hidden' : 'flex'
+              } p-6 black-gradient absolute top-24 right-0 mx-4 my-2 min-w-[256px] z-10 rounded-xl`}
             >
-              <Link to={`#${nav.id}`}>
-                <Text tid={nav.id} />
-              </Link>
-            </li>
-          ))}
-        </ul>
-        <SwitchButton state={language} setState={setLanguage} />
-        <div className='lg:hidden flex justify-end items-center'>
-          <img
-            src={toggle ? close : menu}
-            alt='menu'
-            className='w-[28px] h-[28px] object-contain'
-            onClick={() => setToggle(!toggle)}
-          />
-
-          <div
-            className={`${
-              !toggle ? 'hidden' : 'flex'
-            } p-6 black-gradient absolute top-24 right-0 mx-4 my-2 min-w-[256px] z-10 rounded-xl`}
-          >
-            <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
-              {navLinks.map((nav) => (
-                <li
-                  key={nav.id}
-                  className={`font-poppins font-medium cursor-pointer text-[16px] text-secondary`}
-                >
-                  <Link to={`#${nav.id}`} onClick={() => setToggle(!toggle)}>
-                    <Text tid={nav.id} />
-                  </Link>
-                </li>
-              ))}
-            </ul>
+              <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
+                {navLinks.map((nav) => (
+                  <li
+                    key={nav.id}
+                    className={`font-poppins font-medium cursor-pointer text-[16px] text-secondary`}
+                  >
+                    <Link to={`#${nav.id}`} onClick={() => setToggle(!toggle)}>
+                      <Text tid={nav.id} />
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>
