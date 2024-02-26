@@ -6,7 +6,6 @@ import Mouse from '../UI/Mouse';
 import { Link } from 'react-scroll';
 import { Text } from '../../context/Language';
 import { styles } from '../../styles';
-import LogoPNG from '../../assets/ST_Logo.webp';
 
 const Landing = () => {
   useEffect(() => {
@@ -23,7 +22,6 @@ const Landing = () => {
             className='text-[30px] font-thin'
           >
             <Text tid='hero-title' />
-            <img src={LogoPNG} alt='logo png' />
           </h2>
           <Logo />
           <h1
