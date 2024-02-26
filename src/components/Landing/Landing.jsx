@@ -6,7 +6,7 @@ import Mouse from '../UI/Mouse';
 import { Link } from 'react-scroll';
 import { Text } from '../../context/Language';
 import { styles } from '../../styles';
-import LogoPNG from '../../assets/ST_Logo.png';
+import LogoPNG from '../../assets/ST_Logo.webp';
 
 const Landing = () => {
   useEffect(() => {
