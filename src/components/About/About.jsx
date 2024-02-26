@@ -11,11 +11,11 @@ const About = () => {
   return (
     <div
       id='about'
-      className='h-screen flex flex-col lg:flex-row container px-4 lg:px-0 mx-auto justify-center items-center'
+      className='h-auto lg:h-screen flex flex-col lg:flex-row container px-4 lg:px-0 mx-auto justify-center items-center'
     >
       <div
         data-aos='fade-left'
-        className='flex-1 flex items-center justify-center h-full relative'
+        className='flex-1 flex items-center justify-center h-full relative my-24'
       >
         <div className='cube'>
           <div className='box box-1'>
