@@ -12,6 +12,7 @@ import { LanguageProvider } from './context/Language';
 import Footer from './components/Footer/Footer';
 import Couerses from './components/Courses/Couerses';
 import Expirience from './assets/Expirience/Expirience';
+import Logo from '/public/ST_Logo.png';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -33,7 +34,7 @@ function App() {
             <Expirience />
             <ProjectList />
             <Couerses />
-
+            <img src={Logo} alt='logo' />
             <Contact />
             <Footer />
           </LanguageProvider>
