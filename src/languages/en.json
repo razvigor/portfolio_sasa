@@ -1,0 +1,91 @@
+{
+  "about": "About",
+  "work": "My Work",
+  "contact": "Contact",
+  "experience": "Experience",
+  "hero-title": "Hi, I'm ",
+  "hero-text_01": "Explore a collection of captivating projects that showcase",
+  "hero-text_02": "my expertise in crafting dynamic and engaging web experiences.",
+  "about-introduction": "Introduction",
+  "about-overview": "Overview.",
+  "aboute-text": "As a software developer specializing in TypeScript and JavaScript, I bring a wealth of experience to the table. My expertise extends to popular frameworks such as React and Three.js. My ability to learn quickly and work closely with clients sets me apart in the industry. I’m dedicated to crafting efficient, scalable, and user-friendly solutions that address real-world challenges. Let’s collaborate to transform your ideas into reality!",
+  "about-ui": "UI/UX",
+  "about-performance": "Performance",
+  "about-seo": "SEO",
+  "about-responsive": "Responsive Design",
+  "experiences-text": "What I have done so far",
+  "experiences-title": "Work Experience.",
+  "infoars": [
+    "Expertise in developing frontends for WordPress applications.",
+    "Frontend developer with experience in teaching frontend developer courses.",
+    "Implemented web accessibility best practices to ensure responsive and inclusive web applications.",
+    "Harnesses Git for version control and actively participates in code reviews with team members."
+  ],
+
+  "itexpert": [
+    "Crafted and maintained frontend code for a diverse range of web applications, leveraging HTML, CSS, SASS, JavaScript, React.js, and TypeScript.",
+    "Collaborated closely with designers and developers to guarantee visually appealing and user-friendly web applications.",
+    "Implemented web accessibility best practices to ensure responsive and inclusive web applications.",
+    "Harnesses Git for version control and actively participates in code reviews with team members."
+  ],
+
+  "freelancer": [
+    "Developing and maintaining web applications using React.js and other related technologies.",
+    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    "Implementing responsive design and ensuring cross-browser compatibility.",
+    "Participating in code reviews and providing constructive feedback to other developers."
+  ],
+  "tech-text": "What i use",
+  "tech-title": "Technologies.",
+  "contact-getintouch": "Get in touch",
+  "contact-contact": "Contact.",
+  "contact-name": "Your Name",
+  "contact-name-placeholder": "What's your name?",
+  "contact-email": "Your email",
+  "contact-email-placeholder": "What's your web address?",
+  "contact-message": "Your Message",
+  "contact-message-placeholder": "What you want to say?",
+  "contact-send": "Send",
+  "contact-sending": "Sending...",
+  "contact-form-message": "Thank you for your message!",
+  "contact-form-error": "Oops! Something went wrong. Please try again later.",
+  "contact-all-fields-with-star": "All fields with an asterisk must be filled!",
+  "work-text": "My work",
+  "work-title": "Real-World Projects.",
+  "work-content": "My portfolio highlights my ability to tackle complex problems, proficiency in various technologies, and project management expertise.",
+  "courses-text": "My courses",
+  "courses-title": "Become a Front-End Developer with Me.",
+  "level_one": [
+    "Embracing HTML, the Backbone of Web Pages",
+    "Mastering CSS, the Language of Web Design",
+    "Enhancing Your Skills with Sass, a Preprocessor for CSS",
+    "Harnessing the Power of Tailwind CSS, a Utility-First CSS Framework",
+    "Bringing Your Skills to Life with Practical Projects"
+  ],
+  "level_two": [
+    "Before you can start writing complex JavaScript code, you need to learn the basics of the language. This includes understanding the syntax, data types, operators, and control flow statements.",
+    "DOM manipulation: JavaScript can be used to manipulate the Document Object Model (DOM), which is the tree-like structure that represents a web page.",
+    "Object-oriented programming: JavaScript is an object-oriented language, so it is important to learn about objects, classes, and inheritance.",
+    "Asynchronous programming: JavaScript is an asynchronous language, so it is important to learn about promises and callbacks.",
+    "Enhanced Code Organization: Modular programming fosters code organization by structuring code into well-defined modules, making it easier to navigate and manage large codebases.",
+    "Bringing Your Skills to Life with Practical Projects"
+  ],
+
+  "level_three": [
+    "In the dynamic world of web development, mastering React.js, a JavaScript library for building user interfaces, is essential for creating interactive and responsive web applications.",
+    "React.js utilizes a concept called the Virtual DOM, an in-memory representation of the actual DOM. This virtual DOM allows React.js to efficiently update the UI by only rendering the necessary changes, optimizing performance and enhancing user experience.",
+    "React.js applications are built from reusable components, independent pieces of code that encapsulate functionality and UI structure. By mastering components, you'll learn to modularize your code, making it easier to maintain and scale your applications.",
+    "JSX, an extension to JavaScript, provides a syntax for defining React.js components. JSX allows you to mix HTML-like syntax with JavaScript code, making it intuitive to create and manage UI elements within your React.js components.",
+    "React.js applications often deal with dynamic data, requiring mechanisms to manage and update the UI accordingly. By learning state management techniques, such as React's built-in state management system or external libraries like Redux, you'll ensure your applications remain responsive and data-driven.",
+    "Bringing Your Skills to Life with Practical Projects"
+  ],
+  "contact-title": "Are you interested in my work?",
+  "contact-text": "Get in touch and send me a message. Always open to build amazing projects.",
+  "name": "Full name",
+  "subject": "Subject",
+  "email": "Email",
+  "message": "Message",
+  "submit": "Submit",
+  "success": "Your email has been successfully sent! We appreciate your interest and will get back to you as soon as possible. Thank you for reaching out to us.",
+  "error": "Oops! Something went wrong while sending your email. Please check your internet connection and try again. If the problem persists, please contact our support team. We apologize for the inconvenience."
+}

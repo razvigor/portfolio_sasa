@@ -1,0 +1,90 @@
+{
+  "about": "O meni",
+  "work": "Moj Rad",
+  "contact": "Kontakt",
+  "experience": "Iskustvo",
+  "hero-title": "Zdravo, ja sam ",
+  "hero-text_01": "Istražite kolekciju zadivljujućih projekata koji prikazuju",
+  "hero-text_02": "moja stručnost u stvaranju dinamičnih i zanimljivih veb iskustava.",
+  "about-introduction": "Upoznajmo se",
+  "about-overview": "Pregled.",
+  "aboute-text": "Kao softverski developer specijalizovan za TypeScript i JavaScript, donosim bogato iskustvo. Moja stručnost se proteže na popularne okvire kao što su React i Three.js. Moja sposobnost brzog učenja i bliske saradnje sa klijentima izdvaja me u industriji. Posvećen sam stvaranju efikasnih, skalabilnih i korisnički prijateljskih rešenja koja rešavaju stvarne izazove. Hajde da sarađujemo i da pretvorimo vaše ideje u stvarnost!",
+  "about-ui": "UI/UX",
+  "about-performance": "Performanse",
+  "about-seo": "SEO",
+  "about-responsive": "Responsivan Dizajn",
+  "experiences-text": "Šta sam dosad radio",
+  "experiences-title": "Radno iskustvo.",
+  "infoars": [
+    "Stručnjak za razvoj frontend-a za WordPress aplikacije.",
+    "Frontend programer sa iskustvom u predavanju frontend kurseva.",
+    "Primjenjivao najbolje prakse pristupačnosti vebu kako bi osigurao reaktivne i inkluzivne veb aplikacije.",
+    "Koristi Git za kontrolu verzija i aktivno učestvuje u pregledima koda sa članovima tima."
+  ],
+
+  "itexpert": [
+    "Razvio i održavao frontend kod za širok spektar veb aplikacija, koristeći HTML, CSS, SASS, JavaScript, React.js i TypeScript.",
+    "Tjesno sarađivao s dizajnerima i programerima kako bi se osigurao da veb aplikacije budu vizualno atraktivne i lagane za korisnike.",
+    "Primjenjivao najbolje prakse pristupačnosti vebu kako bi osigurao reaktivne i inkluzivne veb aplikacije.",
+    "Koristi Git za kontrolu verzija i aktivno učestvuje u pregledima koda sa članovima tima."
+  ],
+
+  "freelancer": [
+    "Razvio i održavao frontend kod za širok spektar veb aplikacija, koristeći HTML, CSS, SASS, JavaScript, React.js i TypeScript.",
+    "Tijesno sarađivao s dizajnerima i programerima kako bi se osigurao da veb aplikacije budu vizualno atraktivne i lagane za korisnike.",
+    "Primjenjivao najbolje prakse pristupačnosti vebu kako bi osigurao reaktivne i inkluzivne veb aplikacije.",
+    "Koristi Git za kontrolu verzija i aktivno učestvuje u pregledima koda sa članovima tima."
+  ],
+  "tech-text": "Šta koristim",
+  "tech-title": "Tehnologije.",
+  "contact-getintouch": "Kontaktirajte nas",
+  "contact-contact": "Kontakt.",
+  "contact-name": "Vaše ime",
+  "contact-name-placeholder": "Kako se zovete?",
+  "contact-email": "Vaša email adresa",
+  "contact-email-placeholder": "Koja je vaša email adresa?",
+  "contact-message": "Vaša Poruka",
+  "contact-message-placeholder": "Šta želite da kažete?",
+  "contact-send": "Pošalji",
+  "contact-sending": "Slanje...",
+  "contact-form-message": "Hvala vam na poruci!",
+  "contact-form-error": "Ups! Došlo je do greške. Molimo pokušajte ponovo kasnije.",
+  "contact-all-fields-with-star": "Sva polja sa zvjezdicom moraju biti popunjena!",
+  "work-text": "Moj rad",
+  "work-title": "Stvarni Projekti.",
+  "work-content": "Moj portfolio ističe moju sposobnost da se bavim složenim problemima, poznavanje različitih tehnologija i stručnost u upravljanju projektima.",
+  "courses-text": "Moji kursevi",
+  "courses-title": "Postanite Front-End Developer sa mnom.",
+  "level_one": [
+    "Usvajanje HTML-a, osnove veb stranica",
+    "Majstorisanje CSS-a, jezik veb dizajna",
+    "Unapređivanje vještina sa Sass-om, preprocesorom za CSS",
+    "Iskorišćavanje moći Tailwind CSS-a, CSS framework-a usmjerenog na alate",
+    "Donošenje vještina u život kroz praktične projekte"
+  ],
+  "level_two": [
+    "Prije nego što počnete pisati kompleksan JavaScript kod, morate naučiti osnove jezika. To uključuje razumijevanje sintakse, tipova podataka, operatora i naredbi za kontrolu toka.",
+    "Manipulacija DOM-om: JavaScript se može koristiti za manipulaciju Document Object Model-a (DOM), koji predstavlja strukturu sličnu stablu a predstavlja veb stranicu.",
+    "Objektno orijentisano programiranje: JavaScript je jezik orijentisan objektima, pa je važno naučiti o objektima, klasama i naslijeđivanju.",
+    "Asinhrono programiranje: JavaScript je asinhroni jezik, pa je važno naučiti o promisima i povratnim pozivima (callback-ovima).",
+    "Unapređena organizacija koda: Modularno programiranje podstiče organizaciju koda strukturiranjem koda u dobro definisane module, olakšavajući navigaciju i upravljanje velikim bazama koda.",
+    "Donošenje vještina u život kroz praktične projekte"
+  ],
+  "level_three": [
+    "U dinamičnom svijetu veb razvoja, mastering React.js, JavaScript biblioteke za izgradnju korisničkih interfejsa, je bitan za stvaranje interaktivnih i responsivnih veb aplikacija.",
+    "React.js koristi koncept nazvan Virtualni DOM, memoriju koja predstavlja stvarni DOM. Ovaj virtualni DOM omogućava React.js da efikasno ažurira UI tako što renderuje samo neophodne promjene, optimizujući performanse i unaprijeđujući korisničko iskustvo.",
+    "React.js aplikacije se grade od ponovno iskoristivih komponenti, nezavisnih dijelova koda koji enkapsuliraju funkcionalnost i strukturu UI-ja. Učenjem komponenti, naučićete da modularizujete svoj kod, olakšavajući održavanje i skaliranje vaših aplikacija.",
+    "JSX, proširenje za JavaScript, pruža sintaksu za definisanje React.js komponenti. JSX vam omogućava da kombinujete sintaksu sličnu HTML-u sa JavaScript kodom, olakšavajući kreiranje i upravljanje UI elementima unutar vaših React.js komponenti.",
+    "React.js aplikacije često se bave dinamičkim podacima, zahtijevajući mehanizme za upravljanje i ažuriranje UI-ja prema tim podacima. Učenjem tehnika upravljanja stanjem, kao što su React-ov sistem upravljanja stanjem ili eksterni alati poput Redux-a, obezbijedićete da vaše aplikacije ostanu responsivne i bazirane na podacima.",
+    "Donošenje vještina u život kroz praktične projekte"
+  ],
+  "contact-title": "Da li ste zainteresovani za moj rad?",
+  "contact-text": "Javite se i pošaljite mi poruku. Uvijek otvoren za izgradnju nevjerovatnih projekata.",
+  "name": "Ime i prezime",
+  "subject": "Subjekt",
+  "email": "Email",
+  "message": "Poruka",
+  "submit": "Pošalji",
+  "success": "Vaš email je uspješno poslan! Cijenimo vaše interesovanje i javit ćemo vam se u najkraćem mogućem roku. Hvala vam što ste nam se obratili.",
+  "error": "Ups! Nešto nije u redu prilikom slanja vaše e-pošte. Provjerite svoju internetsku vezu i pokušajte ponovo. Ako problem i dalje postoji, kontaktirajte naš tim za podršku. Izvinjavamo se zbog neugodnosti."
+}
