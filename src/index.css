@@ -13,6 +13,9 @@
   color-scheme: dark;
 }
 @layer base {
+  html {
+    @apply overflow-x-hidden w-screen;
+  }
   body {
     @apply bg-primary overflow-x-hidden w-screen;
   }
