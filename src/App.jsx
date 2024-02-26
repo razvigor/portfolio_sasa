@@ -1,42 +1,37 @@
-import Landing from './components/Landing/Landing';
-import ProjectList from './components/ProjectList/ProjectList';
-import About from './components/About/About';
-import Contact from './components/Contact/Contact';
+import { lazy, Suspense } from 'react';
 import Social from './components/Social/Social';
 import Navbar from './components/NavBar/NavBar';
 import Mouse from './components/UI/Mouse';
-import { useState } from 'react';
 import Preloader from './components/Preloader/Preloader';
 import ScrollToHashElement from './components/UI/ScrollToHashElement';
 import { LanguageProvider } from './context/Language';
 import Footer from './components/Footer/Footer';
-import Couerses from './components/Courses/Couerses';
-import Expirience from './assets/Expirience/Expirience';
+
+const About = lazy(() => import('./components/About/About'));
+const Contact = lazy(() => import('./components/Contact/Contact'));
+const ProjectList = lazy(() => import('./components/ProjectList/ProjectList'));
+const Landing = lazy(() => import('./components/Landing/Landing'));
+const Couerses = lazy(() => import('./components/Courses/Couerses'));
+const Expirience = lazy(() => import('./assets/Expirience/Expirience'));
 
 function App() {
-  const [loading, setLoading] = useState(true);
-
   return (
     <>
-      {loading ? (
-        <Preloader setLoading={setLoading} />
-      ) : (
-        <>
-          <LanguageProvider>
-            <ScrollToHashElement />
-            <Mouse />
-            <Navbar />
-            <Social />
-            <Landing />
-            <About />
-            <Expirience />
-            <ProjectList />
-            <Couerses />
-            <Contact />
-            <Footer />
-          </LanguageProvider>
-        </>
-      )}
+      <Suspense fallback={<Preloader />}>
+        <LanguageProvider>
+          <ScrollToHashElement />
+          <Mouse />
+          <Navbar />
+          <Social />
+          <Landing />
+          <About />
+          <Expirience />
+          <ProjectList />
+          <Couerses />
+          <Contact />
+          <Footer />
+        </LanguageProvider>
+      </Suspense>
     </>
   );
 }

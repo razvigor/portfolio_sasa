@@ -2,9 +2,29 @@ import { useState, useEffect } from 'react';
 import { gsap, Expo } from 'gsap';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import { useCallback } from 'react';
 
-const Preloader = ({ setLoading }) => {
+const Preloader = () => {
   const [counter, setCounter] = useState(0);
+
+  const reveal = useCallback(() => {
+    const t1 = gsap.timeline({});
+
+    t1.to('.follow', {
+      width: '100%',
+      ease: Expo.easeInOut,
+      duration: 0.4,
+      delay: 0.1,
+    })
+      .to('.hide', { opacity: 0, duration: 0.3 })
+      .to('.follow', {
+        height: '100%',
+        ease: Expo.easeInOut,
+        duration: 0.2,
+      })
+      .to('.content', { width: '100%', ease: Expo.easeInOut, duration: 0.7 });
+  }, []);
+
   useEffect(() => {
     const count = setInterval(() => {
       setCounter((counter) =>
@@ -13,29 +33,7 @@ const Preloader = ({ setLoading }) => {
           : (clearInterval(count), setCounter(100), reveal())
       );
     }, 25);
-  }, []);
-
-  async function reveal() {
-    const t1 = gsap.timeline({});
-
-    await t1
-      .to('.follow', {
-        width: '100%',
-        ease: Expo.easeInOut,
-        duration: 0.4,
-        delay: 0.1,
-      })
-      .to('.hide', { opacity: 0, duration: 0.3 })
-      .to('.follow', {
-        height: '100%',
-        ease: Expo.easeInOut,
-        duration: 0.2,
-      })
-      .to('.content', { width: '100%', ease: Expo.easeInOut, duration: 0.7 });
-    if (!t1.isActive()) {
-      await setLoading(false);
-    }
-  }
+  }, [reveal]);
 
   return (
     <AppContainer>
