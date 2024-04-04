@@ -29,7 +29,7 @@ const Landing = () => {
             data-aos-duration='2000'
             className={`${styles.heroHeadText} mt-2`}
           >
-            Saša Trkulja
+            Trkulja Saša
           </h1>
           <p
             data-aos='fade-in'
